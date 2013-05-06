@@ -3107,6 +3107,14 @@ CONFIG_ANDROID_LOW_MEMORY_KILLER=y
 # CONFIG_USB_WPAN_HCD is not set
 
 #
+# Qualcomm Atheros Prima WLAN module
+#
+CONFIG_PRIMA_WLAN=m
+# CONFIG_PRIMA_WLAN_BTAMP is not set
+CONFIG_PRIMA_WLAN_LFR=y
+CONFIG_PRIMA_WLAN_OKC=y
+
+#
 # Qualcomm MSM specific device drivers
 #
 CONFIG_MSM_SSBI=y
